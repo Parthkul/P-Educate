@@ -6,7 +6,6 @@
     .navbar{
         flex-direction: column;
         transition: all 0.65s ease-in-out;
-        height: 77vh;
     }
 
     
