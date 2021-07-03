@@ -1,0 +1,95 @@
+
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .navbar{
+        flex-direction: column;
+        transition: all 0.65s ease-in-out;
+        height: 70vh;
+    }
+
+    
+    .logo img {
+        width: 49%;
+        border: 3px solid white;
+        border-radius: 100%;
+    }
+
+    .right-nav{
+        text-align: center;
+    }
+
+    #search{
+        width: 100%;
+    }
+
+    .btn-sm{
+        margin:4px 6px;
+    }
+
+    .burger{
+        display: block;
+    }
+
+    .h-nav{
+        height: 10vh;
+    }
+
+    .v-class{
+        display: none;
+    }
+
+    .main-box{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .Asection{
+        flex-direction: column-reverse;
+    }
+
+    
+    .About-Img{
+        width: 14vw;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        border-radius: 12px;
+        box-shadow: 12px 12px #00000019;
+    }
+
+
+    .text-big {
+        font-size: 2rem;
+    }
+
+    .text-small{
+        font-size: 1.12rem;
+    }
+
+    .Form-In {
+        width: 90%;
+        margin: 2rem auto;
+        display: block;
+    }
+
+    .paras {
+        padding: 0 0rem;
+    }
+
+    .sectionSub-tag {
+        padding-bottom: 3rem;
+    }
+
+    .section-tag {
+        padding-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        padding: 10px 2px ;
+    }
+
+    footer p {
+        font-size: 14px;
+    }

@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&family=Poppins:wght@500&family=Ubuntu:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto:ital,wght@1,500&display=swap');
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+/* Navigation Bar */
+.logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 29%;
+    border: 3px solid white;
+    border-radius: 100%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 12;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0%;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.liit{
+    list-style: none;
+    padding: 2rem 1.34rem;  
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 1.14rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link:hover{
+    color: #ffa2a2;
+}
+
+.right-nav{
+    width: 30%;
+    text-align: right;
+}
+
+.btn{
+    padding: 10px 9px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: #00000096;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    outline: none;
+    transition: all 0.45s ;
+}
+
+.btn-sm{
+    padding: 5px 8px;
+    margin: 0 6px;
+    vertical-align: middle;
+}
+
+.btn:hover{
+    font-weight: bold;
+    border: 2px solid black;
+    background: #fbfcd3d8;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btn-dark{
+    color: black;
+    border: 2px solid black;
+    background: none;
+    font-weight: bold;
+    margin: 1rem auto;
+    display: block;
+    font-size: 1.13rem;
+}
+
+.btn-dark:hover{
+    background-color: #ffe7ebda;
+    color: black;
+}
+
+#search{
+    padding: 5px ;
+    font-size: 15px;
+    border: 3px solid #9d3333;
+    border-radius: 9px;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url(../Img/BG-2.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* Home */
+.main-box{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    max-width: 50%;
+    margin: auto;
+    height: 90%;
+    align-items: center;
+}
+
+#home-Img{
+    width: 75%;
+    display: block;
+    margin: 1rem auto;
+    border: 4px solid #fff;
+    border-radius: 100%;
+}
+
+
+#home{
+    height: 90.65vh;
+}
+
+.text-big{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.64rem;
+}
+.text-small{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:1.25rem;
+}
+
+.first-half{
+    width: 80%;
+    display : flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-half{
+    width: 30%;
+}
+
+.buttons{
+    margin: 12px 0px;
+}
+
+.home-btn{
+    margin: 1px 5px;
+    background: none;
+}
+
+.home-btn:hover{
+    border: 2px solid white;
+    background: #00000096;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+/* About */
+
+.Asection{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.Secleft{
+    flex-direction: row-reverse;
+}
+
+.About-Img{
+    width: 14vw;
+    border-radius: 12px;
+    box-shadow: 12px 12px #00000019;
+}
+
+.left-About-Img{
+    box-shadow: -12px -12px #00000019;
+}
+
+.paras{
+    padding: 0 5rem;
+}
+
+.sectionSub-tag{
+    font-family: 'Barlow', sans-serif;
+    font-size:1.25rem;
+}
+
+.section-tag{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.64rem;
+}
+
+/* Contact Us */
+
+#contact{
+    background-color:#e7e6e631;
+    /* height: 60vh; */
+    padding-top: 4rem;
+}
+
+.text-center{
+    text-align: center;
+}
+.cont-heading{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.34rem;
+    padding-bottom: 1.34rem;
+}
+
+.form{
+    max-width: 99vh;
+    margin: 1.23rem auto;
+    padding-bottom: 6rem;
+}
+
+.Form-In{
+    margin-top: 2rem;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    padding: 5px 5px;
+    border: 3px solid #444444;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+    background-color: #ffe7eb8c;
+}
+
+/* Footer */
+
+footer{
+    background-color: #424343;
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p a{
+    color: white;
+}
+footer p a:hover{
+    color: #ff9f9f;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    top: 11px;
+    right: 3%;
+}
+
+.line{
+    width: 33px;
+    background-color: #fff;
+    height: 4px;
+    margin: 4px 3px;
+}
